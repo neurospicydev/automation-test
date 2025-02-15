@@ -49,9 +49,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
 ## Upcoming Features
 
 - **Interactive Staging**: Choose to add or decline adding more files to the staging area.
-- **Input Navigation Shortcuts**  
-  - Move cursor left/right to edit user input
-  - Add support for `Ctrl+A/Ctrl+E` shortcut (beginning/end of line)command line navigation.  
 - **Custom Upstream Branch Support**  
   - Allow users the option to specify a non-default upstream branch (e.g., `origin/dev`).  
 - **Diff Preview Before Commit**  

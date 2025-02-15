@@ -2,8 +2,6 @@
 
 A bash script used to add files to git staging area, commit and push to a remote repository
 
----
-
 ## Description
 
 This bash script simplifies git workflow by automating staging, committing, and pushing changes. It includes user-friendly prompts, and error handling to demonstrate knowledge and understanding in:  
@@ -11,8 +9,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
 - **Git operations**  
 - **User input validation**  
 - **Error handling and automation**  
-
----
 
 ## Key Features  
 
@@ -35,8 +31,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
 
 - **Cross-Platform**: Works on Linux, macOS, and Windows (via WSL).
 
----
-
 ## What to Test  
 
 - **Edge Cases**  
@@ -52,8 +46,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
   - Stage files, then rerun the script to skip `git add`.  
   - Create unpushed commits, then rerun to push them first.  
 
----
-
 ## Upcoming Features
 
 - **Interactive Staging**: Choose to add or decline adding more files to the staging area.
@@ -64,8 +56,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
   - Allow users the option to specify a non-default upstream branch (e.g., `origin/dev`).  
 - **Diff Preview Before Commit**  
   - Show `git diff --staged` output to let users review changes before committing. 
-
----
 
 ## Installation  
 1. Clone this repository:  
@@ -102,8 +92,6 @@ This bash script simplifies git workflow by automating staging, committing, and 
 
    ```
 
----
-
 ## 🤝 Contributing  
 Open to contributions! Follow these steps:  
 1. Fork the repository.  
@@ -120,8 +108,6 @@ Open to contributions! Follow these steps:
    git push origin feature/new-feature
    ```
 5. Open a pull request.
-
----
 
 ## License  
 This project is licensed under the [MIT License](LICENSE).

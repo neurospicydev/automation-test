@@ -25,7 +25,7 @@ This bash script simplifies git workflow by automating staging, committing, and 
   - Checks for upstream branch and sets up tracking if missing, ensuring smooth `git push` operations.
   - Auto-sets upstream branch on first push.  
 
-- **Retry Logic**  
+- **Error Handling for Commits and Push**  
   - **Commit**: Loops until the user fixes issues (empty message, conflicts, etc.).  
   - **Push**: Retries automatically after transient errors (network issues), allowing quick recovery. 
 

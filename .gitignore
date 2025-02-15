@@ -1,0 +1,3 @@
+# Ignore temporary files
+*.log
+.DS_Store

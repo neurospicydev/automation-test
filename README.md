@@ -44,7 +44,14 @@ This bash script simplifies git workflow by automating staging, committing, and 
 
 - **Resume Functionality**  
   - Stage files, then rerun the script to skip `git add`.  
-  - Create unpushed commits, then rerun to push them first.  
+  - Create unpushed commits, then rerun to push them first.
+    
+## Testing  
+Example files are in the [test/](test/) directory. Use them to validate the script:  
+```bash  
+cd test/  
+../script.sh
+```  
 
 ## Upcoming Features
 
